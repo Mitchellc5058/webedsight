@@ -246,14 +246,7 @@ header .header-cases {
 
 /* INDEXS */
 .index-banner {
-  width: 100%;
-  height: calc(80vh - 500px);
-  background-image: url('img/trees.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  display: table;
-  filter: grayscale(.25);
+;
 }
 
 .verticle-center {
