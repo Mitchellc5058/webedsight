@@ -1,0 +1,630 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* end style reset */
+
+/* begin custom style */
+
+.main {
+  font-family: Alef;
+  font-size: 26px;
+  padding: 2px 0 0 5px;
+  margin: 5px;
+  display: flex;
+
+}
+
+.main p {
+  padding: 2px 0 0 0 ;
+  font-family: Quicksand;
+  font-size: 20px;
+}
+
+.main2 p {
+  padding: 50px 0 0 50px ;
+  font-family: coda;
+  font-size: 20px;
+}
+
+*{
+  text-decoration: none;
+}
+
+body {
+  background-color: #999;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 90px;
+}
+
+
+
+header .header-brand {
+  font-family: Alef;
+  font-size: 24px;
+  color: #000;
+  font-weight: 900;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  background-color: #ccc;
+  border-bottom: 2px solid #000;
+
+}
+
+header .header-brand img {
+  margin: -6px 0 0 2px;
+  display: flex;
+  float: left;
+  vertical-align: middle;
+  height: 40px;
+}
+
+header nav ul {
+  display: block;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  font-family: Alef;
+  font-size: 16px;
+  font-style: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+
+header .header-cases {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  header .header-brand {
+    margin: 30px 0;
+    text-align: left;
+    line-height: 40px;
+    padding: 0 20px 0 20px;
+    border-bottom: 0px solid #000;
+    border-right: 3px solid #000;
+    float: left;
+  }
+
+  header {
+    background-color: #bdbdbd;
+  }
+
+  header .header-brand img {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    vertical-align: middle;
+  }
+
+  header nav ul {
+    margin: 20px 0 0 20px;
+    float: left;
+  }
+
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+
+  header .header-cases {
+    display: block;
+    font-family: Alef;
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 40px;
+    border: 1px solid #000;
+    float: right;
+    margin-right: 40px;
+    margin-top: 29px;
+    padding: 0 20px;
+  }
+
+}
+
+/* INDEXS */
+.index-banner {
+  width: 100%;
+  height: calc(80vh - 500px);
+  background-image: url('img/trees.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  filter: grayscale(.25);
+}
+
+.verticle-center {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 1px;
+
+}
+
+.index-banner-about {
+  width: 100%;
+  height: 100px;
+  background-image: url('img/Thumbnail/bank.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  filter: grayscale(.5);
+}
+
+.index-banner-portfolio {
+  width: 100%;
+  height: 100px;
+  background-image: url('img/Thumbnail/vegas.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  filter: grayscale(.5);
+}
+
+.index-banner-film {
+  width: 100%;
+  height: 100px;
+  background-image: url('img/Thumbnail/bank.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  filter: grayscale(.5);
+}
+
+.index-banner-portfolio h2 {
+  font-family: Alef;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 9px #000;
+  text-transform: uppercase;
+}
+
+.index-banner-film h2 {
+  font-family: Alef;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000;
+  text-transform: uppercase;
+}
+
+.index-banner-about h2 {
+  font-family: Alef;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000;
+  text-transform: uppercase;
+}
+
+.index-banner-contact {
+  width: 100%;
+  height: 100px;
+  background-image: url('img/Thumbnail/dam.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+  filter: grayscale(.5);
+}
+
+.index-banner-contact h2 {
+  font-family: Alef;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000;
+  text-transform: uppercase;
+}
+
+.index-banner h2 {
+  font-family: Alef;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000;
+  text-transform: uppercase;
+}
+
+
+
+.index-banner h1 {
+  font-family: Quicksand;
+  font-size: 27px;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.index-links{
+  margin-top: 40px;
+}
+
+.index-links div {
+  padding: 10px 0 10px 0;
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+
+
+}
+
+
+.index-links div h3 {
+  font-family: Alef;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 100px;
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.image {
+  margin: 25px 10px;
+}
+
+.imageP{
+  margin: 0 55px;
+}
+
+.image img {
+  width: 500px;
+  height: 333px;
+}
+
+.imageP img {
+  height: 400px;
+}
+
+
+@media only screen and (max-width: 1046px) {
+  *{
+    color:inherit;
+  }
+
+
+  .imageP {
+    padding: 0 100px 0 100px !important;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  * {
+    color: inherit;
+  }
+
+  .index-banner-contact {
+    background-image: url('img/dam.jpg');
+  }
+
+  .index-banner-about {
+    background-image: url('img/building.jpg');
+  }
+
+  .index-banner {
+    background-image: url('img/path.jpg');
+  }
+
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .index-banner {
+    height: calc(100vh - 200px);
+  }
+
+  .index-banner h1 {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+  }
+
+  .index-links {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    /*background-color: #d4d4d4;*/
+    float: left;
+  }
+
+  .index-boxlink-square {
+    width: calc(25% - 20px) !important;
+  }
+
+  .index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+  }
+
+  .index-links div h3 {
+    line-height: 230px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1500px) {
+  .wrapper {
+    width: 1200px;
+  }
+}
+
+
+/* Portfolio page */
+
+@media only screen and (min-width: 2000px) {
+  .wrapper {
+    width: 1500px;
+  }
+}
+
+
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: baseline;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  *{
+    color: inherit;
+  }
+
+  .container {
+    margin-top: 150px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+  }
+
+  .image {
+    padding: 5px 0 2px 0;
+  }
+
+  .imageP {
+    padding: 5px 0 2px 0;
+  }
+
+  .image img {
+    padding: 0px !important;
+    margin: 0;
+    border: 0;
+    width: 100% !important;
+    height: 66.6%;
+  }
+}
+
+
+
+/* FOOTER */
+
+footer {
+  width: calc(100% - 20) ;
+  padding: 40px 40px;
+  margin-top: calc(50vh - 200px);
+  background-color: #000;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+  footer {
+    margin-top: 50px;
+
+  }
+}
+
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+
+}
+
+footer ul li a{
+  font-family: Alef;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.footer-links-cases {
+  display: none;
+}
+
+.footer-sm {
+  display: block;
+  width: 60px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.footer-sm img {
+  width: 40px;
+  float: right;
+  margin-bottom: 20px;
+  padding-right:20px;
+
+}
+@media only screen and (min-width: 1000px) {
+  .footer-links-cases {
+    display: block;
+  }
+
+  footer ul {
+    padding-left: 30px;
+  }
+
+  footer ul li p{
+    font-family: Alef;
+    font-size: 24px;
+    color: #d4d4d4;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+}
